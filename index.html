@@ -7,6 +7,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="assets/css/style.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/png" href="assets/img/favicon/Logo__header.png">
    <title>VityanProdantacks</title>
 </head>
 
@@ -21,15 +22,14 @@
       <div class="container">
          <div class="header__inner">
             <a> <img class="header__logo--mob" src="assets/img/header/Logo__header.svg" alt=""></a>
-            <nav class="nav">
+            <nav class="nav" id="nav">
                <a> <img class="header__logo" src="assets/img/header/Logo__header.svg" alt=""></a>
                <a class="nav__link active" href="index.html">Главная</a>
-               <a class="nav__link" href="#">Новости</a>
-               <a class="nav__link" href="#">Магазин</a>
-               <a class="nav__link" href="#">Контакты</a>
+               <a class="nav__link not-ready" href="#">Игры</a>
+               <a class="nav__link not-ready" href="#">Новости</a>
             </nav>
 
-            <button class="burger" type="button">
+            <button class="burger" type="button" id="navToggle">
                <img src="assets/img/header/menu.svg" alt="burger">
             </button>
          </div><!-- Header__inerd end -->
@@ -82,7 +82,7 @@
                <div class="slider__info">
                   <h3 class="slider__name">Как создавалась легенда</h3>
                   <p class="slider__text">
-                     Наконец пришло время рассказать про историю создания нашей самой культовой и скандальной франшизы -
+                     Наконец-то пришло время рассказать про историю создания нашей самой культовой и скандальной франшизы -
                      Мемасный Мир.
                   </p>
 
@@ -219,7 +219,7 @@
 
 
                   <div class="article__info">
-                     <div class="article__date" datetime="2021-04-28">??.04.2021</div>
+                     <div class="article__date" datetime="2021-04-28">24.06.2021</div>
                      <div class="article__commentns"><span>0</span>комментариев</div>
                      <div class="article__likes">0</div>
                   </div>
@@ -395,7 +395,8 @@
                <div class="request__follow">
                   <h3 class="requset-subtitle">Следите за нами в социальных сетях</h3>
                   <div class="request__media">
-                     <a href="https://vk.com/club152353730" target="blank_"><img src="assets/img/request/Vk.svg" alt="vk"></a>
+                     <a href="https://vk.com/club152353730" target="blank_"><img src="assets/img/request/Vk.svg"
+                           alt="vk"></a>
                   </div>
                </div>
 
@@ -436,9 +437,8 @@
 
             <nav class="footer__nav">
                <a class="footer__nav-item" href="index.html">Главная</a>
-               <a class="footer__nav-item" href="#">Новости</a>
-               <a class="footer__nav-item" href="#">Магазин</a>
-               <a class="footer__nav-item" href="#">Контакты</a>
+               <a class="footer__nav-item not-ready" href="#">Игры</a>
+               <a class="footer__nav-item not-ready" href="#">Новости</a>
             </nav>
 
             <div class="footer__contacts">
