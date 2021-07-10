@@ -62,23 +62,23 @@ $(document).ready(function () {
 
       responsive: [
          {
-            breakpoint:834,
+            breakpoint: 834,
             settings: {
-               dots:false
+               dots: false
             }
          }
       ]
 
-      
+
    });
-   
+
 
    let navToogle = $('#navToggle');
    let nav = $('#nav');
-   navToogle.on('click', function(event) {
+   navToogle.on('click', function (event) {
       event.preventDefault();
 
-      nav.toggleClass ('show');
+      nav.toggleClass('show');
    })
 
 });

@@ -490,6 +490,11 @@ p {
    transition: box-shadow 0.3s linear;
 }
 
+.g_imgVitalya{
+   background: url('../img/games/games_pic/Vitalya\ Splash_auto_x2.png') no-repeat center;
+   background-size: cover;
+}
+
 .g_img1 {
    background: url('../img/games/games_pic/Мемасный\ Мир\ Эпизод\ 1\ ver1.jpg') no-repeat center;
    background-size: cover;
@@ -625,6 +630,10 @@ p {
    background: url('../img/games/arr_next.svg') 0 0 / 100% no-repeat;
 }
 
+
+#slick-slide-control10 {
+   display: none;
+}
 
 
 /* Точки (булиты) */
